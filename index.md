@@ -11,12 +11,6 @@ permalink: /
   </header>
 
   <div class="clearfix">
-    <div class="profile_float">
-      <div class="profile_img">
-        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80" alt="Profile portrait" class="img-fluid z-depth-1 rounded-circle" />
-      </div>
-    </div>
-
     <div class="profile-content">
       <p>
         I am a researcher working at the intersection of mathematics, computation, and applied science.
