@@ -1,31 +1,40 @@
 ---
-layout: default
+layout: page
 title: CV
+permalink: /cv/
 ---
 
-<section class="section">
-  <div class="section-header">
-    <h1>Curriculum Vitae</h1>
-  </div>
+<h2>Curriculum Vitae</h2>
 
-  <div class="paragraph-block">
-    <p>
-      A CV and biography can be included here and linked to a downloadable PDF file stored in the repository.
-      Replace this placeholder section with the actual credentials, appointments, honors, and service records.
-    </p>
-  </div>
+<p>
+  This page summarizes the core academic background and professional trajectory. Replace the placeholders below with
+  your exact academic appointments, degrees, publications, awards, and service history.
+</p>
 
-  <div class="info-box">
-    <h3>Contents</h3>
-    <ul>
-      <li>Education</li>
-      <li>Professional appointments</li>
-      <li>Research interests</li>
-      <li>Honors and awards</li>
-      <li>Service and professional activity</li>
-      <li>Selected publications</li>
-    </ul>
-    <p><a class="button primary" href="/assets/cv.pdf">Download CV (placeholder)</a></p>
-  </div>
-</section>
+<div class="cv-section">
+  <h3>Education</h3>
+  <ul>
+    <li>Ph.D. in [Discipline], [Institution], [Year]</li>
+    <li>M.S. in [Discipline], [Institution], [Year]</li>
+    <li>B.S. in [Discipline], [Institution], [Year]</li>
+  </ul>
+</div>
 
+<div class="cv-section">
+  <h3>Professional experience</h3>
+  <ul>
+    <li>Researcher / Faculty / Scientist, [Institution], [Years]</li>
+    <li>Visiting scholar / postdoctoral researcher, [Institution], [Years]</li>
+  </ul>
+</div>
+
+<div class="cv-section">
+  <h3>Research interests</h3>
+  <ul>
+    <li>Quantitative modeling</li>
+    <li>Computational and statistical methods</li>
+    <li>Interdisciplinary applications</li>
+  </ul>
+</div>
+
+<p><a href="mailto:your.email@example.edu">Request a full CV</a></p>

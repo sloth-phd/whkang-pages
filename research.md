@@ -1,53 +1,44 @@
 ---
-layout: default
+layout: page
 title: Research
+permalink: /research/
 ---
 
-<section class="section">
-  <div class="section-header">
-    <h1>Research</h1>
-  </div>
+<h2>Research</h2>
 
-  <div class="paragraph-block">
+<p>
+  My research interests center on developing sound and practically useful quantitative methods. I work at the
+  boundary between theory and application, combining analytical thinking, computational tools, and domain-specific
+  understanding to address difficult problems.
+</p>
+
+<div class="card-grid">
+  <div class="card">
+    <h3>Methodological research</h3>
     <p>
-      My research focuses on developing rigorous and useful quantitative methods that can be applied to
-      complex problems across science, technology, and data-driven decision making. I work at the intersection
-      of theory and application, with emphasis on analytical modeling, probability-based reasoning, and
-      computational tools.
+      I develop mathematical and statistical methods for modeling uncertainty, inference, and structured problem solving.
     </p>
   </div>
 
-  <div class="cards">
-    <article class="card">
-      <h3>Methodological research</h3>
-      <p>
-        Development of mathematical and statistical approaches for modeling uncertainty, inference, and
-        estimation under realistic constraints.
-      </p>
-    </article>
-    <article class="card">
-      <h3>Applied work</h3>
-      <p>
-        Translating statistical and computational ideas into practical tools for scientific and data-driven
-        applications.
-      </p>
-    </article>
-    <article class="card">
-      <h3>Collaborative projects</h3>
-      <p>
-        Interdisciplinary research with students and collaborators across quantitative and applied domains.
-      </p>
-    </article>
+  <div class="card">
+    <h3>Computational approaches</h3>
+    <p>
+      I explore numerical and algorithmic tools for data analysis, simulation, and optimization in applied settings.
+    </p>
   </div>
 
-  <div class="paragraph-block">
-    <h3>Current interests</h3>
-    <ul>
-      <li>Mathematical modeling and analysis</li>
-      <li>Statistical inference and uncertainty quantification</li>
-      <li>Computational methods and algorithmic tools</li>
-      <li>Interdisciplinary applications of quantitative methods</li>
-    </ul>
+  <div class="card">
+    <h3>Cross-disciplinary applications</h3>
+    <p>
+      I collaborate on projects where quantitative methods support scientific, technological, and real-world decision making.
+    </p>
   </div>
-</section>
+</div>
 
+<h3>Current focus</h3>
+<ul>
+  <li>Statistical modeling and inference</li>
+  <li>Computational methods for scientific data</li>
+  <li>Interdisciplinary quantitative analysis</li>
+  <li>Research translation from theory to application</li>
+</ul>
