@@ -1,0 +1,9 @@
+title: "Wook Hyun Kang"
+email: "wookhyunkang@example.edu"
+description: >-
+  Personal academic homepage.
+baseurl: ""
+url: "https://sloth-phd.github.io/whkang-pages"
+markdown: kramdown
+permalink: pretty
+
