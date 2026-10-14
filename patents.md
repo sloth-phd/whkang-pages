@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /patents/
+permalink: /patents.html
 title: "Patents"
 ---
 
