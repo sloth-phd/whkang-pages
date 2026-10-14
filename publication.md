@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /publication/
+permalink: /publication.html
 title: "Publication"
 ---
 
