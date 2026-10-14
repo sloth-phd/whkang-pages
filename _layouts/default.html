@@ -1,35 +1,32 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }} | {{ site.title }}</title>
-    <meta name="description" content="{{ site.description }}">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+</head>
+<body>
     <header class="site-header">
-      <div class="container nav-wrap">
-        <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-        <nav class="site-nav" aria-label="Main navigation">
-          <a href="{{ '/' | relative_url }}">Home</a>
-          <a href="{{ '/research' | relative_url }}">Research</a>
-          <a href="{{ '/publications' | relative_url }}">Publications</a>
-          <a href="{{ '/teaching' | relative_url }}">Teaching</a>
-          <a href="{{ '/cv' | relative_url }}">CV</a>
-          <a href="{{ '/contact' | relative_url }}">Contact</a>
+        <nav class="site-nav">
+            <div class="nav-container">
+                <a href="{{ "/" | relative_url }}" class="nav-link {% if page.url == "/" %}active{% endif %}">Home</a>
+                <a href="{{ "/about/" | relative_url }}" class="nav-link {% if page.url == "/about/" %}active{% endif %}">About me</a>
+                <a href="{{ "/publication/" | relative_url }}" class="nav-link {% if page.url == "/publication/" %}active{% endif %}">Publication</a>
+                <a href="{{ "/patents/" | relative_url }}" class="nav-link {% if page.url == "/patents/" %}active{% endif %}">Patents</a>
+                <a href="{{ "/projects/" | relative_url }}" class="nav-link {% if page.url == "/projects/" %}active{% endif %}">Projects</a>
+                <a href="{{ "/contact/" | relative_url }}" class="nav-link {% if page.url == "/contact/" %}active{% endif %}">Contact</a>
+            </div>
         </nav>
-      </div>
     </header>
 
-    <main class="container page-content">
-      {{ content }}
+    <main class="page-content">
+        <div class="wrapper">
+            {{ content }}
+        </div>
     </main>
 
     <footer class="site-footer">
-      <div class="container footer-inner">
-        <p>© {{ 'now' | date: '%Y' }} {{ site.title }}</p>
-      </div>
     </footer>
-  </body>
+</body>
 </html>

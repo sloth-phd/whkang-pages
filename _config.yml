@@ -1,55 +1,5 @@
-# Site settings
-name: "W. H. Kang"
-title: "W. H. Kang"
-email: "your.email@example.edu"
-description: >-
-  An academic personal website built with the al-folio Jekyll theme.
-baseurl: ""
-url: "https://sloth-phd.github.io/whkang-pages"
-
-# Build settings
+title: "Woo Hyun Kang"
+description: "Ph.D. with expertise in speech signal processing and machine learning."
 markdown: kramdown
-permalink: pretty
-
-# Theme + plugins
-remote_theme: alshedivat/al-folio
-plugins:
-  - jekyll-remote-theme
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-archives
-  - jekyll-paginate
-
-# General site config
-nav_order: 1
-navbar:
-  - title: Home
-    url: /
-  - title: Research
-    url: /research/
-  - title: Publications
-    url: /publications/
-  - title: Teaching
-    url: /teaching/
-  - title: CV
-    url: /cv/
-  - title: Contact
-    url: /contact/
-
-# Social / profile data
-social:
-  - title: email
-    url: "mailto:your.email@example.edu"
-  - title: scholar
-    url: "https://scholar.google.com/"
-  - title: orcid
-    url: "https://orcid.org/"
-
-# Content defaults
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
+baseurl: ""
+url: ""
